@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(120deg, #fafafa, #aaf896);
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #000000; /*imp */
+  /* font-family: "Arvo", cursive; */
+  font-family: "Shizuru", cursive;
+  text-shadow: 3px 0 #f7f7f7; /*imp */
+}
+
+.w {
+  background-image: url("images/tom11.jpg");
+}
+
+.a {
+  background-image: url("images/tom21.jpg");
+}
+
+.s {
+  background-image: url("images/tom3.jpg");
+}
+
+.d {
+  background-image: url("images/tom4.jpg");
+}
+
+.j {
+  background-image: url("images/snare1.jpg");
+}
+
+.k {
+  background-image: url("images/crash.jpg");
+}
+
+.l {
+  background-image: url("images/kick1.jpg");
+}
+
+.i {
+  background-image: url("images/clap.jpg");
+}
+
+.set {
+  margin: 5% auto 10%;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #000000;
+  font-size: 5rem;
+  font-family: "Shizuru", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #000000; /*imp */
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px 10px 5px;
+
+  background-color: white;
+}
+
+.bt {
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  border: none;
+  background: white;
+  color: #0e0e0e;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bt:hover {
+  background: #0e0e0e;
+  color: white;
+}
